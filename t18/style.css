@@ -1,0 +1,46 @@
+h4{
+	background:linear-gradient(to right,silver,white,blue);
+	padding:30px;
+}
+body{
+	margin:0px;
+	padding:0px;
+	background:black;
+	color:white;
+}
+a{
+	text-decoration:none;
+	color:navy;
+	margin-right:20px;
+}
+	input[type=submit]{
+	background:linear-gradient(to right,purple,red);
+	color:white;
+		padding:15px;
+		border:0px;
+	}
+	input:invalid{
+		background:red;
+		
+	}
+	input:valid{
+		background:green;
+	}
+	input[type=submit]{
+	background:linear-gradient(to right,purple,red);
+	color:white;
+		padding:15px;
+		border:0px;
+	}
+	a:hover{
+		color:red;
+	}
+	input:hover[type=submit]{
+	background:linear-gradient(to left,purple,red);
+	color:white;
+		padding:15px;
+		border:0px;
+		}
+		input:focus{
+			border:5px solid green;
+		}
