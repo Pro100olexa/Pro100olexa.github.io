@@ -1,0 +1,52 @@
+<html>
+<head>
+<style>
+.cool{
+width:100%; height:100%;
+}
+body{
+background:url(https://ashevchenko.kiev.ua/assets/images/articles/football-pole.jpg)
+}
+.anim1{
+animation:ooo 2s linear 1s 3 alternate;
+float:left;
+border:4px solid red;
+}
+@keyframes ooo{
+	0%{
+	transform:translate(0px,4px); 
+	}
+	
+	100%{
+	transform:translate(500px,450px);
+		}
+		}
+		
+		
+		.anim2{
+animation:ruh 2s linear 1s 3 alternate;
+float:right;
+margin-left:500px;
+border:4px solid blue;
+}
+@keyframes ruh{
+	0%{
+	transform:translate(0px,0px); 
+	}
+	50%{
+	transform:translate(-200px,0px);
+	}
+	
+	100%{
+	transform:translate(-400px,500px);
+		}
+</style>
+</head>
+<body>
+<div class="cool">
+<div class="anim1"><img src="https://images.ua.prom.st/1277410549_w640_h640_1277410549.jpg" width="200px" height="100px"></div>
+<div class="anim2"><img src="https://images.ua.prom.st/1277410549_w640_h640_1277410549.jpg" width="100px" height="200px"></div>
+</div>
+</body>
+
+</html>
