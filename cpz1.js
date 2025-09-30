@@ -5,10 +5,14 @@
 	x++;
  }
  if (5 == prompt(`9-4?`)){
+	
+
 	 x++;
+
  }
 let z1 = confirm (`20+5`)
  if (z1 == true){
+
 	 x++;
  }
  let z3 = confirm(`5+4=9?`);
